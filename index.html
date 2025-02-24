@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+        body {	font-family: Arial, sans-serif;
+              	background-color: white;
+            	color: #2e7d32;
+            	margin: 0;
+            	padding: 0;}
+        .banner {background: url("https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/480611368_1628418144731709_5353806595927481161_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHtDHfgYLW5cwMFeqmu59MQPw51UzrbOds_DnVTOts525vBA7HuuylHD7M_yh-6p_POOiZSKywLfb5HIob5eo9m&_nc_ohc=MdFZjgzT9pEQ7kNvgGn7UuS&_nc_oc=AdjKVbWdY87PBX3eX5aNAP35e7MWWwr2v4XmBMp5Wodd3vF4-Z5gCFZdTNiptVpAMX0u36eIzYL159OKmMoiQQ6Y&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=APyhU7oo__LNFQuBMUAfQWX&oh=00_AYCENDjEPnQ9xFggf6M9TJB85K2bAK8Pg9YiQZk2SVoPKw&oe=67C0EF7A") no-repeat center center;
+            	background-size: cover;
+            	padding-top: 12rem;
+            	padding-bottom: 12rem;
+            	text-align: center;
+            	color: white;}
+		.slogan {background-color: rgb(248, 249, 250);
+        		 text-align: center;
+                 padding-right: 0.5rem;
+                 padding-left: 2rem;
+                 padding-top: 2rem;
+                 padding-bottom: 3rem;}
+        .row {display: flex;
+        	  flex-wrap: wrap;
+              margin-top: -1;
+              max-width: 100%;
+              padding-right: 3rem;
+              padding-left: 3rem;}
+		.block_3 {flex: 0 0 33.33333333%;}
+        .activities-container { display: flex;
+            					justify-content: center;
+                                flex-wrap: wrap;
+            					gap: 20px;
+            					padding: 3rem;}
+        .activity-card {flex: 0 0 30%;
+            			background: #e8f5e9;
+            			padding: 20px;
+            			border-radius: 10px;
+            			text-align: center;
+            			box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            			transition: transform 0.3s;}
+        .activity-card:hover {transform: scale(1.05);}
+        .detail-button {display: inline-block;
+            			padding: 10px 15px;
+            			margin-top: 10px;
+            			background-color: #2e7d32;
+            			color: white;
+            			text-decoration: none;
+            			border-radius: 5px;
+            			transition: background 0.3s;}
+        .detail-button:hover {background-color: #1b5e20;}
+        .section-container {background-color: #e8f5e9;
+            				padding: 3rem;
+            				margin: 2rem;
+            				border-radius: 15px;
+            				box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+        .image-gallery {display: grid;
+            			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            			gap: 15px;
+            			padding: 3rem;
+            			text-align: center;}
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);}
+        footer {background: linear-gradient(135deg, #2e7d32, #1b5e20);
+    			color: white;
+    			padding: 30px 50px;
+    			border-top-left-radius: 30px;
+    			border-top-right-radius: 30px;
+    			margin-top: 3rem;
+    			font-size: 16px;}
+	.footer-container {	display: flex;
+    				flex-wrap: wrap;
+    				justify-content: space-between;
+    				align-items: start;
+    				max-width: 1200px;
+    				margin: auto;}
+	.footer-section h3 {font-size: 18px;
+    			font-weight: bold;
+    			margin-bottom: 10px;
+    			border-bottom: 2px solid white;
+    			display: inline-block;
+    			padding-bottom: 5px;}
+        h1 {
+            color: #2e7d32;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;}
+        nav {
+            background-color: #e8f5e9;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);}
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #2e7d32;
+            transition: color 0.3s;}
+        nav a:hover {
+            color: #1b5e20;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner" id="home"></div>
+        <h1 id="memories" style="background-color:green; color:white;">THANH XUÂN CỦA CHÚNG TA - 12A1</h1>
+    	<nav>
+        	<a href="#home">Giới Thiệu</a>
+        	<a href="#memories">Kỉ Niệm</a>
+        	<a href="#luubut">Lưu bút</a>
+        	<a href="#activities">Hoạt Động</a>
+		<a href="#tonghop">Tổng hợp</a>
+    	</nav>
+        <div class="slogan">
+        	<div class="row">
+            	<div class="block_3"><h2>Kỉ niệm</h2><p>Những kỉ niệm đẹp mà chúng ta không thể quên</p></div>
+                <div class="block_3"><h2>Thanh xuân</h2><p>Quãng thời gian đẹp nhất của tuổi trẻ</p></div>
+                <div class="block_3"><h2>Lưu trữ</h2><p>Luu lại những khoảnh khắc đẹp đẽ nhất của thanh xuân</p></div>
+             </div>
+        </div>
+    </header>
+    <div class="section-container" id="memories">
+    <h1 id="luubut">MÙA HẠ CUỐI CÙNG</h1>
+    <h3>Niên khóa: 2022-2025</h3>
+    <p>Thanh xuân là khoảng thời gian tươi đẹp nhất của đời người, và những năm tháng cuối cấp chính là điểm nhấn rực rỡ nhất trong quãng đời học sinh. Đó là những ngày tháng vừa hối hả vừa lặng lẽ, nơi chúng ta chạy đua với thời gian để chuẩn bị cho kỳ thi quan trọng, nhưng cũng cố gắng trân trọng từng khoảnh khắc bên thầy cô, bạn bè.</p>
+    <p>Thanh xuân của học sinh lớp 12 là những ngày tháng rực rỡ nhất, nơi có những ước mơ cháy bỏng, những nụ cười vô tư và cả những giọt nước mắt chia xa. Đó là những buổi học sôi nổi, những lần chạy đua với thời gian để kịp ôn bài, là những khoảnh khắc lặng lẽ ngắm nhìn sân trường rồi chợt nhận ra chẳng bao lâu nữa sẽ phải rời xa.</p>
+    <p>Thanh xuân ấy có thầy cô tận tâm, có bạn bè đồng hành, có những rung động đầu đời ngây ngô nhưng đáng nhớ. Để rồi khi ngoảnh lại, ta chỉ mong một lần được sống lại những ngày tháng ấy, dù chỉ trong giấc mơ.</p>
+    <p>Ngày chia tay, chúng ta không chỉ tạm biệt mái trường mà còn tạm biệt một phần tuổi trẻ của chính mình. Nhưng dù có đi đến đâu, những ký ức ấy vẫn sẽ mãi nằm lại trong tim, nhắc nhở chúng ta về một thời tuổi trẻ rực rỡ, nhiệt huyết và đáng trân trọng. Thanh xuân cuối cấp khép lại, nhưng những tình bạn, những bài học và những ước mơ sẽ mãi theo ta trên hành trình phía trước.</p>
+    </div>
+    <div class="image-gallery">
+    	<img src="https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/480677579_1628954358011421_5445004152084304439_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFMZcJ0svRBfCIlom-JVadGYcSaJ1ToCfJhxJonVOgJ8jeYGK0Cc2bHQRFoqN2KRG0FD9KvWF0v3RB3kmmNUcZN&_nc_ohc=h_j9L5HlvwcQ7kNvgGQxhDI&_nc_oc=AdhOijb_RnBbOYgLDXGzug14_xUOLYgNHEO5bbJ9gnXiOECCpKbWS5mMd6Nn2r5chvEi4VWfxzHz2h3ntHvaSvbH&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=A8jC0Bgcq80emTmvFYGWnhl&oh=00_AYDcCUlBB5Q-evDFYta73oaA56hLVMBRbYe9A1MpvM47lw&oe=67C25936">
+		<img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/480503863_1628959384677585_1436565734935172958_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFe3GB6hvlm6aMuit_LeyUkXOCD3sFC7A5c4IPewULsDldo_i95iFJhMbAnPFXHx-f_UG96HN5OkPl_S8BGXrPM&_nc_ohc=whg_G51iY1EQ7kNvgGFFOeE&_nc_oc=Adj0o4DnYdvpjzl9YS_txCwIqdbDxxwLdGvFfzpwNq4V0wNG6ukrt0gzzN11Bn-VWqrR6QMxt-XaIkZAVyAMYny6&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&_nc_gid=Ak1aFqxKd9X2EX8ioZ6J4EU&oh=00_AYDSVbRVMQGnd8Tr7OWIu7GWdUvUpuMoeLUi_G7byC-n3A&oe=67C2414E">
+		<img src="https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/481144086_1628959341344256_1253715518610854634_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFVQlwM_hMK4NYUG4xn1MnXXtT78R1LUgde1PvxHUtSB8gFewPRNgAi73hTwxBPKk5PGjrmXTgOGzUV5y-qijmT&_nc_ohc=btl3qStVeQoQ7kNvgHja7H5&_nc_oc=AdjiWbbq2FMltfn0bsGWLFygeZk4xwxo747UElDrgZ3UMQWU2TcW5f8rfyw16GXDLKm_66JobZBNFcwzmG1vjXqS&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=AmVmnKOW_22cyg5z_zIpr1E&oh=00_AYBWqnxmOdObXDFxZbVg67NRG8xrx0tly4xrEyYRoqA1CQ&oe=67C23BD9">
+		<img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/481668931_1628961461344044_3045246491004358413_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGrSWlUMJHVBKTjrTvcwIjhzdNCvbHBN0DN00K9scE3QOMvOtvIYAXEbaFC4lyKBQPKBD2_Iqzq8KbwZ0fni6Ob&_nc_ohc=pUomAyy2_sIQ7kNvgECgder&_nc_oc=Adg_oHs_8vcKLxNMMU167CPYJHBVULdaQo-JckdLPP76rhzIDerzNNfOoIR9KwG164vppNq31ZwYdpm1squSAigf&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&_nc_gid=AI9IcQ_R_Lib49beYG19epG&oh=00_AYDCWuIZV9wY-kmpkpnvKbmgvPbwch4vqo9ZY4AzasIiVw&oe=67C2596D">
+    </div>
+    <h1 id="activities">HOẠT ĐỘNG CỦA CHÚNG TÔI</h1>
+    <div class="activities-container">
+        <div class="activity-card">
+            <h2>Hội trại ẩm thực - Tết ở làng A1</h2>
+            <p>Từng là nơi tập thể lớp 11A1 cùng nhau tạo ra những món ăn ngày tết...</p>
+            <p><b>Thành tích: Giải nhất</b></p>
+            <a href="hoitrai.html" class="detail-button">Xem chi tiết</a>
+        </div>
+        <div class="activity-card">
+            <h2>Bóng đá nam - FC Michelin Boys</h2>
+            <p>Khi chúng ta được làm chính mình, thỏa sức với niềm đam mê bóng đá...</p>
+            <p><b>Thành tích: Giải nhì</b></p>
+            <a href="bongdanam.html" class="detail-button">Xem chi tiết</a>
+        </div>
+        <div class="activity-card">
+            <h2>Bóng chuyền nữ - Sức mạnh bền bỉ</h2>
+            <p>Sức mạnh đồng đội đã tạo ra một thành tích đáng ngưỡng mộ...</p>
+            <p><b>Thành tích: Giải ba</b></p>
+            <a href="bongchuyennu.html" class="detail-button">Xem chi tiết</a>
+        </div>
+        <div class="activity-card">
+            <h2>Văn Nghệ - "Vinh quang Tổ quốc ta"</h2>
+            <p>Những màn trình diễn rực rỡ thể hiện tài năng và sự sáng tạo...</p>
+            <p><b>Thành tích: Giải ba</b></p>
+            <a href="vannghe.html" class="detail-button">Xem chi tiết</a>
+        </div>
+    </div>
+    <p style="text-align:center"><i>Đỗ nguyện vọng 1 nhé!</i></p>
+<footer id="tonghop">
+    <div class="footer-container" >
+        <div class="footer-section" style="flex: 1; min-width: 250px;">
+            <h3>Tập thể lớp 12A1</h3>
+            <p>Niên khóa: 2022-2025</p>
+            <p>Địa chỉ: <a href="https://www.facebook.com/doantruongthptlehoangialai" style="color: white; text-decoration: none;">THPT Lê Hoàn, Đức Cơ, Gia Lai</a></p>
+            <p>Liên hệ: <a href="https://www.facebook.com/PhuongThao777.130246/" style="color: white; text-decoration: none;">Phương Thảo</a></p>
+        </div>
+        <div class="footer-section" style="flex: 1; min-width: 250px;">
+            <h3>Danh mục</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="index.html" style="color: white; text-decoration: none;">Trang chủ</a></li>
+                <li><a href="hoitrai.html" style="color: white; text-decoration: none;">Hội trại ẩm thực</a></li>
+                <li><a href="bongdanam.html" style="color: white; text-decoration: none;">Bóng đá nam</a></li>
+                <li><a href="bongchuyennu.html" style="color: white; text-decoration: none;">Bóng chuyền nữ</a></li>
+                <li><a href="vannghe.html" style="color: white; text-decoration: none;">Văn nghệ</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section" style="flex: 1; min-width: 250px;">
+            <h3>Theo dõi chúng tôi</h3>
+            <div class="social-icons" style="display: flex; gap: 15px;">
+                <a href="https://www.facebook.com/doantruongthptlehoangialai" style="color: white; text-decoration: none;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook" width="30">
+                </a>
+                <a href="https://www.instagram.com/a1_thptlehoan/" style="color: white; text-decoration: none;">
+                    <img src="https://png.pngtree.com/png-clipart/20180626/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3584852.png" alt="Instagram" width="35">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div style="text-align: center; padding: 1rem; background: #2e7d32; color: white;">
+        <p>&copy; 2022-2025 12A1 - THPT Lê Hoàn.</p>
+    </div>
+</footer>
+</body>
+</html>
+
